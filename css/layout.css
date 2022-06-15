@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:200,300,400,700);
+/* @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+body {
+  font-family: "Muli", sans-serif;
+}
+
+.font-title {
+    font-family: 'Kaushan Script', cursive;
+}
+
+/* .dark-mode {
+    background-color: black;
+    color: white;
+} */
+#about {
+    margin: 0 2rem;
+}
+
+.align-center {
+    margin-bottom: 1rem;
+}
+
+.education-exp {
+    margin: 0 2rem;
+}
+.about-me{ 
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    padding: 10px;
+}
+.aside-navbar {
+  background-color: #d5dbe7;
+}
+
+.fontawesome {
+  font-size: 1.6rem;
+}
+
+h6 .fa-calendar-days {
+    margin-top: 1rem;
+}
+
+div .fa-location-dot  {
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+
+#success {
+  text-decoration: none;
+  margin-left: 5px;
+  color: #198754;
+}
+
+#success:hover {
+  color: #d9ecda;
+  background-color: #198754;
+  padding: 5px;
+  border-radius: 1rem;
+}
+
+.border-success {
+    border-radius: 1rem;
+}
+
+.green {
+  background-color: #d9ecda;
+  border-radius: 1rem;
+}
+
+.yellow {
+  background-color: #fdf3d2;
+  color: #4d3c06;
+  border-radius: 1rem;
+}
+
+.yellow a {
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.yellow a:hover {
+  color: #fdf3d2;
+  background-color: #4d3c06;
+  padding: 5px;
+  border-radius: 1rem;
+}
+
+.border-warning {
+    border-radius: 1rem;
+}
+
+.pink {
+  background-color: #f8d7da;
+  border-radius: 1rem;
+}
+
+.border-danger {
+    border-radius: 1rem;
+}
+
+.seven-wonders-project {
+    text-decoration: none;
+    margin-left: 5px;
+    color: #DC3545;
+}
+
+.seven-wonders-project:hover {
+    color: #f8d7da;
+    background-color: #DC3545;
+    padding: 5px;
+    border-radius: 1rem;
+}
+.blue {
+  background-color: #cff4fc;
+  color: #055160;
+  border-radius: 1rem;
+}
+
+.border-info {
+    border-radius: 1rem;
+}
+
+.nav-item a {
+  color: #526a8c;
+}
+
+.nav-item {
+  color: #526a8c;
+}
+
+.contact {
+    color: #526a8c;;
+   
+}
+
+.rounded-circle {
+  margin-left: 3rem;
+}
+
+.brands-icons {
+  font-size: 1.8rem;
+}
+
+.envelope a{
+    text-decoration: none;
+}
+
+.copyright {
+    color: #526a8c;
+}
+
+@media only screen and (min-width: 769px) {
+    .about-me{ 
+        font-size: 1.6rem;
+     
+    }
+
+    .first-ul {
+        margin-right: 5px;
+        position: relative; 
+        display: block;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        line-height: 43px;
+        background: #F8F9FA;
+        border-radius: 50%;
+        font-size: 20px;
+        transition: .5s;
+      }
+    
+      .first-ul::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: violet;
+        transition: .5s;
+        transform: scale(.9);
+        z-index: -1;
+      }
+    
+      .first-ul:hover::before {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px indigo;
+      }
+    
+      .first-ul:hover {
+        color: #526A8C;
+        box-shadow: 0 0 5px #526A8C;
+        text-shadow: 0 0 5px #526A8C;   
+      }
+    .navbar-aside-image {
+        margin-bottom: 5rem;
+    }
+
+  .project {
+    margin: 1rem 1rem;
+  }
+
+
+}
